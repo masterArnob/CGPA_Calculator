@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="709.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.cgpa_cal_1_1.PrimaryController">
+   <children>
+      <Button fx:id="primaryButton" layoutX="547.0" layoutY="80.0" mnemonicParsing="false" onAction="#switchToSecondary" text="GO to Search" />
+      <Label layoutX="59.0" layoutY="128.0" text="Student ID" />
+      <TextField fx:id="tID" layoutX="143.0" layoutY="124.0" promptText="Enter ID" />
+      <TextField fx:id="Sub1TF" layoutX="59.0" layoutY="216.0" prefHeight="18.0" prefWidth="57.0" promptText="Subject" />
+      <TextField fx:id="g1" layoutX="59.0" layoutY="250.0" prefHeight="18.0" prefWidth="57.0" promptText="Grade" />
+      <TextField fx:id="Sub2TF" layoutX="66.0" layoutY="310.0" prefHeight="18.0" prefWidth="57.0" promptText="Subject" />
+      <TextField fx:id="g2" layoutX="66.0" layoutY="349.0" prefHeight="18.0" prefWidth="57.0" promptText="Grade" />
+      <TextField fx:id="Sub3TF" layoutX="66.0" layoutY="419.0" prefHeight="18.0" prefWidth="57.0" promptText="Subject" />
+      <TextField fx:id="g3" layoutX="66.0" layoutY="457.0" prefHeight="18.0" prefWidth="57.0" promptText="Grade" />
+      <TextField fx:id="Sub4TF" layoutX="66.0" layoutY="527.0" prefHeight="18.0" prefWidth="57.0" promptText="Subject" />
+      <TextField fx:id="g4" layoutX="69.0" layoutY="563.0" prefHeight="18.0" prefWidth="57.0" promptText="Grade" />
+      <Label fx:id="Status" layoutX="27.0" layoutY="677.0" prefHeight="0.0" prefWidth="542.0" />
+      <TextField fx:id="Sub5TF" layoutX="69.0" layoutY="619.0" prefHeight="18.0" prefWidth="57.0" promptText="Subject" />
+      <TextField fx:id="g5" layoutX="69.0" layoutY="651.0" prefHeight="18.0" prefWidth="57.0" promptText="Grade" />
+      <Label layoutX="377.0" layoutY="327.0" text="CGPA" />
+      <Button fx:id="Calculate" layoutX="430.0" layoutY="381.0" mnemonicParsing="false" onAction="#doCalculate" text="Calculate" />
+      <Button fx:id="Save" layoutX="340.0" layoutY="432.0" mnemonicParsing="false" onAction="#doSave" text="Save" />
+      <Button fx:id="Update" layoutX="408.0" layoutY="432.0" mnemonicParsing="false" onAction="#doUpdate" text="Update" />
+      <Button fx:id="Delete" layoutX="482.0" layoutY="432.0" mnemonicParsing="false" onAction="#doDelete" text="Delete" />
+      <Button fx:id="Clear" layoutX="562.0" layoutY="432.0" mnemonicParsing="false" onAction="#doClear" text="Clear" />
+      <TextField fx:id="gpaTF" disable="true" layoutX="421.0" layoutY="323.0" prefHeight="26.0" prefWidth="58.0" />
+      <Label layoutX="140.0" layoutY="14.0" prefHeight="66.0" prefWidth="374.0" text="Simple CGPA Calculator with MYSQL">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
